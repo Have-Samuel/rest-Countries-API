@@ -30,7 +30,13 @@ Users should be able to:
 - Toggle the color scheme between light and dark mode *(optional)*
 
 ### Screenshot
+
 ### Mobile Version
+
+![](./screenshot.jpg)
+
+### Mobile Version
+
 ![](./screenshot.jpg)
 
 ### Links
