@@ -8,7 +8,7 @@
 
 :root {
   --Dark-Blue: #2b3945; /* (Dark Mode Elements) */
-  --Very-Dark-Blue: #202c37; /* (Dark Mode Background) */
+  --Very-Blue: #202c37; /* (Dark Mode Background) */
   --Very-Dark-Blue: #111517; /* 111517(Light Mode Text) */
   --Dark-Gray: hsl(0, 0%, 52%); /* (Light Mode Input) */
   --Very-Light-Gray: hsl(0, 6%, 90%); /* (Light Mode Background) */
@@ -46,7 +46,7 @@ main {
   align-items: center;
 }
 
-.icon-word ion-icon {
+.icon-word .icons {
   color: var(--Very-Dark-Gray);
 }
 
@@ -98,10 +98,11 @@ main {
   outline: none;
 }
 
-.search .search-input ion-icon {
+.search .search-input .icons {
   color: var(--Dark-Gray);
   width: 90px;
   height: 25px;
+  cursor: pointer;
 }
 
 .search select {
