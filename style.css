@@ -119,6 +119,4 @@ main {
   color: var(--Dark-Gray);
   outline: none;
   margin-top: 1rem;
-  background-color: white;
-  border-radius: 4px;
 }
