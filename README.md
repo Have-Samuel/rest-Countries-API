@@ -35,7 +35,7 @@ Users should be able to:
 
 ![](./screenshot.jpg)
 
-### Mobile Version
+### Desktop Version
 
 ![](./screenshot.jpg)
 
