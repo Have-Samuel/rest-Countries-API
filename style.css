@@ -46,6 +46,10 @@ main {
   align-items: center;
 }
 
+.icons {
+  cursor: pointer;
+}
+
 .icon-word .icons {
   color: var(--Very-Dark-Gray);
 }
@@ -56,6 +60,8 @@ main {
   font-weight: 600;
   cursor: pointer;
 }
+
+
 
 .head h1 {
   font-family: 'Nunito Sans', sans-serif;
@@ -103,6 +109,8 @@ main {
   width: 90px;
   height: 25px;
   cursor: pointer;
+  border: red solid 5px;
+  background-color: green;
 }
 
 .search select {
