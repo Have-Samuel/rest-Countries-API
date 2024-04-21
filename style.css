@@ -149,3 +149,22 @@ main {
   width: 321px;
   margin-bottom: 1rem;
 }
+
+.country-info {
+  width: 240px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1rem;
+  flex-direction: column;
+}
+
+.country-info h2 {
+  font-size: 1.13rem;
+  font-weight: 800;
+  color: var(--Very-Dark-Blue);
+  margin-bottom: 1rem;
+}
+
+.bold {
+  font-weight: 600;
+}
