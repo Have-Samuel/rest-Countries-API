@@ -128,11 +128,24 @@ main {
   margin-top: 1rem;
 }
 
-.map {
-  padding: 1.8rem;
-  width: 375px;
-  height: 250px;
+.location {
+  width: 264px;
+  margin: 0 auto;
+}
+
+.country {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 1rem;
   background-color: var(--White);
   box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
   margin-top: 1rem;
+}
+
+.map {
+  padding: 0 1.8rem 0 1.8rem;
+  width: 321px;
+  margin-bottom: 1rem;
 }
