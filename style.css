@@ -127,3 +127,12 @@ main {
   outline: none;
   margin-top: 1rem;
 }
+
+.map {
+  padding: 1.8rem;
+  width: 375px;
+  height: 250px;
+  background-color: var(--White);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  margin-top: 1rem;
+}
