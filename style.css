@@ -27,6 +27,7 @@ body {
 
 main {
   background-color: #f3f1f1;
+
   /* height: 100vh; */
 }
 
@@ -151,6 +152,7 @@ main {
   padding: 0 1.8rem 0 1.8rem;
   width: 321px;
   margin-bottom: 1rem;
+
   /* border-radius: 30px; */
 }
 
