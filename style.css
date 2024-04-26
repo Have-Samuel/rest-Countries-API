@@ -21,20 +21,13 @@ body {
 
   /* height: 100vh; */
   width: 375px;
-  margin: 0 auto;
+  margin: 1rem auto 0;
   box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
 }
 
 main {
-  background-color: #f3f1f1;
-
-  /* height: 100vh; */
-}
-
-header {
-  -moz-box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
-  -webkit-box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
-  box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
+  border-radius: 0 0 5px 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0 13px 15px;
 }
 
 .head {
@@ -45,8 +38,7 @@ header {
   padding: 0 1rem;
   background-color: var(--White);
   height: 80px;
-  box-shadow: rgba(0, 0, 0, 0.45) 0 25px 20px -20px;
-  border: 2px solid red;
+  box-shadow: rgba(0, 0, 0, 0.45) 0 5px 20px -1px;
 }
 
 .icon-word {
@@ -157,10 +149,8 @@ header {
 
 .map {
   padding: 0 1.8rem 0 1.8rem;
-  width: 321px;
+  width: 322px;
   margin-bottom: 1rem;
-
-  /* border-radius: 30px; */
 }
 
 .country-info {
@@ -181,4 +171,113 @@ header {
 
 .bold {
   font-weight: 600;
+}
+
+.country-info p {
+  font-size: 0.9rem;
+  color: var(--Dark-Gray);
+}
+
+.country-info .border {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.country-info .border p {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--Very-Dark-Gray);
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    width: 768px;
+  }
+
+  main {
+    width: 768px;
+  }
+
+  .head {
+    width: 768px;
+  }
+
+  .search {
+    width: 768px;
+  }
+
+  .search .search-input input {
+    width: 85%;
+  }
+
+  .search select {
+    width: 200px;
+  }
+
+  .location {
+    width: 768px;
+  }
+
+  .country {
+    width: 768px;
+  }
+
+  .map {
+    width: 768px;
+  }
+
+  .country-info {
+    width: 768px;
+  }
+
+  .country-info h2 {
+    font-size: 1.5rem;
+  }
+
+  .country-info p {
+    font-size: 1.1rem;
+  }
+
+  .country-info .border p {
+    font-size: 1rem;
+  }
+
+  .country-info .border {
+    margin-top: 1.5rem;
+  }
+
+  .search .search-input .icons {
+    width: 90px;
+    height: 25px;
+  }
+
+  /* .icon-word p {
+    font-size: 1rem;
+  } */
+
+  .head h1 {
+    font-size: 1.5rem;
+  }
+
+  .icon-word {
+    gap: 1rem;
+  }
+
+  .icon-word .icons {
+    font-size: 1.5rem;
+  }
+
+  .icon-word p {
+    font-size: 1rem;
+  }
+
+  .search .search-input {
+    height: 50px;
+  }
+
+  .search .search-input input {
+    font-size: 1.1rem;
+  }
+
 }
