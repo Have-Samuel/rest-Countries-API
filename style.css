@@ -264,13 +264,13 @@ main {
     gap: 1rem;
   }
 
-  .icon-word .icons {
+  /* .icon-word .icons {
     font-size: 1.5rem;
   }
 
   .icon-word p {
     font-size: 1rem;
-  }
+  } */
 
   .search .search-input {
     height: 50px;
