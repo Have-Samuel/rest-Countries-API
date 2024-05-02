@@ -129,6 +129,17 @@ main {
   margin-top: 1rem;
 }
 
+.continent {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 1rem;
+  background-color: var(--White);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  margin-top: 1rem;
+  border-radius: 5px;
+}
+
 .location {
   width: 264px;
   margin: 0 auto;
@@ -213,7 +224,7 @@ main {
   }
 
   .search select {
-    width: 200px;
+    width: 292px;
   }
 
   .location {
