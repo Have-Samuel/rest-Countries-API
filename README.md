@@ -35,6 +35,10 @@ Users should be able to:
 
 ![](./screenshot.jpg)
 
+### Mobile Index Light
+
+![](./screenshot.jpg)
+
 ### Desktop Version
 
 ![](./screenshot.jpg)
