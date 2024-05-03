@@ -51,6 +51,10 @@ Users should be able to:
 
 ![](./screenshot.jpg)
 
+### Mobile Index Dark
+
+![](./screenshot.jpg)
+
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
