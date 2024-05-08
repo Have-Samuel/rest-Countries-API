@@ -132,6 +132,11 @@ main {
   margin-top: 1rem;
 }
 
+/* .spacing {
+  margin-top: 0.5rem;
+  margin-left: 5rem;
+} */
+
 .continent {
   display: flex;
   justify-content: space-around;
