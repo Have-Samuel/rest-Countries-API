@@ -130,6 +130,7 @@ main {
   color: var(--Dark-Gray);
   outline: none;
   margin-top: 1rem;
+  border-right: 16px solid transparent
 }
 
 /* .spacing {
