@@ -112,7 +112,7 @@ main {
   background-color: green;
 }
 
-.search select {
+select {
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -130,6 +130,15 @@ main {
   color: var(--Dark-Gray);
   outline: none;
   margin-top: 1rem;
+  border-right: 16px solid transparent;
+}
+
+optgroup {
+  
+}
+
+select option {
+
 }
 
 .continent {
@@ -267,10 +276,6 @@ main {
 
   .head h1 {
     font-size: 1.5rem;
-  }
-
-  .icon-word {
-    gap: 1rem;
   }
 
   /* .icon-word .icons {

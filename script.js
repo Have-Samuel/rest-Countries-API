@@ -6,3 +6,5 @@ drops.forEach((drop) => {
     drop.classList.toggle('active');
   });
 });
+
+// Changing the whole app Dark Mode
