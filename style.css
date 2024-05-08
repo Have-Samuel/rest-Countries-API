@@ -112,7 +112,7 @@ main {
   background-color: green;
 }
 
-.search select {
+select {
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -130,7 +130,11 @@ main {
   color: var(--Dark-Gray);
   outline: none;
   margin-top: 1rem;
-  border-right: 16px solid transparent
+  border-right: 16px solid transparent;
+}
+
+select option {
+  
 }
 
 /* .spacing {
