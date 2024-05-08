@@ -198,7 +198,7 @@ main {
   color: var(--Very-Dark-Gray);
 }
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
   body {
     width: 768px;
   }
@@ -284,4 +284,4 @@ main {
   .search .search-input {
     height: 50px;
   }
-}
+} */
