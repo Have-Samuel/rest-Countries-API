@@ -198,7 +198,7 @@ main {
   color: var(--Very-Dark-Gray);
 }
 
-/* @media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
   body {
     width: 768px;
   }
@@ -269,10 +269,6 @@ main {
     font-size: 1.5rem;
   }
 
-  .icon-word {
-    gap: 1rem;
-  }
-
   /* .icon-word .icons {
     font-size: 1.5rem;
   }
@@ -284,4 +280,4 @@ main {
   .search .search-input {
     height: 50px;
   }
-} */
+}
