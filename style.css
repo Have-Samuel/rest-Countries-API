@@ -133,14 +133,6 @@ select {
   border-right: 16px solid transparent;
 }
 
-optgroup {
-  
-}
-
-select option {
-
-}
-
 .continent {
   display: flex;
   justify-content: space-around;
@@ -269,10 +261,6 @@ select option {
     width: 90px;
     height: 25px;
   }
-
-  /* .icon-word p {
-    font-size: 1rem;
-  } */
 
   .head h1 {
     font-size: 1.5rem;
