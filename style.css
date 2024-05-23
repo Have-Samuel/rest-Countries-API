@@ -48,6 +48,10 @@ main {
   cursor: pointer;
 }
 
+.sun {
+  display: none;
+}
+
 .icons {
   cursor: pointer;
 }
