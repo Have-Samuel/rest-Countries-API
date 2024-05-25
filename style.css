@@ -144,6 +144,16 @@ select {
   border-right: 16px solid transparent;
 }
 
+select optgroup {
+  margin-top: 4rem;
+  border: 4px solid red;
+}
+
+select option {
+  margin-bottom: 2rem;
+  border: 4px solid red;
+}
+
 .continent {
   display: flex;
   justify-content: space-around;
