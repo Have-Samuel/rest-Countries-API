@@ -140,7 +140,6 @@ select {
   width: 200px;
   height: 40px;
   padding: 0 1rem;
-  /* background-color: var(--White); */
   background-color: #000106;
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
