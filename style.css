@@ -44,6 +44,14 @@ main {
   border-radius: 5px 5px 0 0;
 }
 
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .dark-theme {
   display: flex;
   justify-content: space-between;
@@ -121,6 +129,8 @@ main {
   font-weight: 600;
   color: var(--Dark-Gray);
   outline: none;
+  border-radius: 5px;
+  padding: 0.5rem;
 }
 
 .search .search-input .icons {
@@ -172,7 +182,7 @@ select {
   padding-bottom: 2rem;
   background-color: var(--White);
   box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
-  margin-top: 1rem;
+  margin: 1rem auto;
   border-radius: 2rem 2rem 0 0;
   border-radius: 5px;
   border: 1px solid red;
