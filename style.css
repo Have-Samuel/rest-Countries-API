@@ -80,7 +80,6 @@ main {
 }
 
 .icon-word p {
-  /* color: var(--secondary-color); */
   color: var(--Very-Dark-Gray);
   font-size: 0.8rem;
   font-weight: 600;
