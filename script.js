@@ -8,7 +8,7 @@ const toggleTheme = document.querySelector('.toggle-theme');
 toggleTheme.addEventListener('click', () => {
   document.body.classList.toggle('dark-theme');
   toggleTheme.classList.toggle('dark-theme');
-//   toggleTheme.classList.toggle('sun');
-//   toggleTheme.classList.toggle('moon');
+  toggleTheme.classList.toggle('moon');
+  toggleTheme.classList.toggle('sun');
   toggleTheme.classList.toggle('toggle-theme');
 });
